@@ -3,6 +3,8 @@ body{
     background-color: black;
 }
 
+
+
 main{
  background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
  background-repeat: no-repeat;
@@ -29,26 +31,29 @@ h2{
 a{
     text-decoration: none;
     color: rgb(247, 247, 247);
-    font-size: 25px;
+    font-size: 20px;
 }
 ul{
     margin: 0 0 0 0;
 }
 
 li{
+    
     list-style-type: none;
 }
 
 
+iframe{
+margin-left: auto;
+margin-right: auto;
+    max-width: 100%;
+  
+ }
+ 
+
 /*   Можно копировать               */
 
-.header-top{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-   text-align: center;
 
-}
 
 div.scrollmenu {
     display: flex;
@@ -81,28 +86,25 @@ div.scrollmenu a:hover {
 
 
 
-.header-bottom{
 
 
+/*   Можно копировать               */
 
+
+.header-container{
     margin-left: auto;
-    margin-right: auto;
-
-    max-width: 1200px;
-   
-text-align: center;
+ margin-right: auto;
+   max-width: 1200px;
 }
 
+.container{
+ margin-left: auto;
+ margin-right: auto;
+   max-width: 1200px;
+display: flex;
+flex-wrap: wrap;
 
 
-/*   Можно копировать               */
-
-
-
-
-section.container{
- 
-   
 }
 
 
@@ -116,43 +118,26 @@ section.container{
 
 
 
-.content_box{
-    min-width: 70%;
-text-align: center;
-    margin-left: 25px;
-    padding-top: 50px;
-
-}
-iframe{
-
-       max-width: 90%;
-       max-height: 200px;
-    }
-    
     
 
 .content{
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 25px;
-   max-width: 1200px;
+margin-left: 20px;
+width: 60%;
+  
    background-color: rgba(199, 199, 199, 0.274);
     display: flex;
+    flex-wrap: wrap;
       justify-content: start;
    
 }
 
-.content-list{
-    max-width: 300px;
-}
 
 
 
 
 .aside-content{
    background-color: rgba(148, 147, 147, 0.555);
-    min-width: 25% ;
+    max-width: 25% ;
   max-width:300px;
 }
 
@@ -220,8 +205,20 @@ border-radius: 15px;
 
 @media screen and (max-width:767px){
     .container{
-        width:540px;
+        min-width:540px;
     }
+  
+.content{
+    width: 100%;
+    margin-left: 10px;
+
+}
+.aside-content{
+    width: 100%;
+}
+.aside-list{
+min-width: 100%;
+}
 }
 
 @media screen and (max-width:575px){
@@ -233,5 +230,6 @@ border-radius: 15px;
     padding: 0 1px;
    
 }
+
 
 }
