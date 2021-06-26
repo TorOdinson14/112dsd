@@ -1,235 +1,98 @@
-
 body{
-    background-color: black;
+
 }
-
-
 
 main{
- background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
- background-repeat: no-repeat;
-background-size: 130%;
-background-position: center;
+    background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
+    background-size: 100%;
+    background-position: top center;
+  margin: 0 -8px 0 -8px;
 }
+
 
 p{
-    color: aliceblue;
+  color: aliceblue;
+  font-size: 25px;
 }
+
+
 h1{
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-
-h2{
-    text-align: center;
     color: aliceblue;
-    font-size: 30px;
-    margin-top: 0px;
+    font-size: 40px;
 }
-
+h2{
+    color: aliceblue;
+}
 a{
     text-decoration: none;
-    color: rgb(247, 247, 247);
-    font-size: 20px;
-}
-ul{
-    margin: 0 0 0 0;
+    color: aliceblue;
 }
 
+iframe{
+    max-width: 100%;
+}
+
+ul{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0 ;
+}
+
+
 li{
-    
     list-style-type: none;
 }
 
 
-iframe{
+
+.li-list{
+
+    min-width: 180px;
+    margin:  8px 0 8px 0;
+    padding-left: 10px;
+    background-color: rgba(83, 69, 83, 0.452);
+}
+
+
+
+
+
+
+
+
+
+header{
+    background-color: rgba(48, 44, 54, 0.959);
+    margin: 0 -8px 0 -8px;
+    height: 150px;
+
+}
+
+.header-top a {
+    display: flex;
+
+}
+.header-button{
+
+}
+
+.container{
+max-width: 1200px ;
 margin-left: auto;
 margin-right: auto;
-    max-width: 100%;
-  
- }
- 
-
-/*   Можно копировать               */
-
-
-
-div.scrollmenu {
-    display: flex;
-   
-    text-align: start;
-    background-color: rgba(0, 0, 0, 0.507);
-    overflow: auto;
-    white-space: nowrap;
-    max-width: 100%;
-    justify-content: space-between;
-}
-div.scrollmenu:hover {
-    background-color: rgba(91, 91, 94, 0.397);
-}
-
-
-div.scrollmenu a {
-    min-width: 100px;
-  
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-    background-color: rgb(155, 154, 154);
-}
-
-
-
-
-
-/*   Можно копировать               */
-
-
-.header-container{
-    margin-left: auto;
- margin-right: auto;
-   max-width: 1200px;
-}
-
-.container{
- margin-left: auto;
- margin-right: auto;
-   max-width: 1200px;
-display: flex;
 flex-wrap: wrap;
 
+}
 
+section{
+    margin: 0px 0 50px 0;
 }
 
 
-
-
-
-
-/*   Можно копировать               */
-
-
-
-
-
-    
-
-.content{
-margin-left: 20px;
-width: 60%;
-  
-   background-color: rgba(199, 199, 199, 0.274);
+.block{
     display: flex;
-    flex-wrap: wrap;
-      justify-content: start;
-   
+    justify-content: space-around;
+    flex-wrap:wrap ;
 }
 
 
 
-
-
-.aside-content{
-   background-color: rgba(148, 147, 147, 0.555);
-    max-width: 25% ;
-  max-width:300px;
-}
-
-.aside-list{
-
-    margin: 0 0 0px -40px;
-}
-
-.aside-li{
-    border: 1px solid;
-    border-color: rgb(13, 15, 14);
-border-radius: 15px;
-    height: 30px;
-    text-align: left ;
-    margin: 0px 0 15px 0;
-
-}
-
-
-
-.aside-li:hover{
-    background-color: rgba(151, 150, 180, 0.452);
-}
-
-.aside-li a{
-    padding-left: 15px;
-}
-
-
-
-
-
-
-
-@media screen and (max-width:1200px){
-    .container{
-    width :1140px ;
-    
-
-    }
-
-
-#nonepc{
-    display: none;
-
-}
-
-
-}
-
-@media screen and (max-width:1199px){
-    .container{
-        width:960px ;
-    }
-}
-
-
-@media screen and (max-width:991px){
-    .container{
-        width:720px;
-    }
-}
-
-
-
-@media screen and (max-width:767px){
-    .container{
-        min-width:540px;
-    }
-  
-.content{
-    width: 100%;
-    margin-left: 10px;
-
-}
-.aside-content{
-    width: 100%;
-}
-.aside-list{
-min-width: 100%;
-}
-}
-
-@media screen and (max-width:575px){
-
-
-.container{
-
-    width:100%;
-    padding: 0 1px;
-   
-}
-
-
-}
