@@ -85,7 +85,7 @@ li{
 header{
     background-color: rgba(0, 0, 0, 0.959);
     margin: -8px -8px 0px -8px;
-    height: 360px;
+
 
 }
 
@@ -95,16 +95,16 @@ header{
 
 
 
-.nav-list{
-    display: flex;
-     justify-content: space-around;
-    
- }
+
 
 
  .nav-li h2{
  text-align: center;
  }
+
+
+
+ 
  .nav-li{
     background-color: rgb(148, 143, 143);
     color: black;
@@ -156,7 +156,7 @@ header{
 
 .header-bottom{
 
-margin-top: 30px;
+
 
 
 
