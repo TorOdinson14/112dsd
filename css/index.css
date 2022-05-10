@@ -1,157 +1,245 @@
-/* Style tab links */
-html {
-    width: 100%;
-    margin: -8px -8px;
+body{
+height: 100%;
 }
 
-body {
-    width: 100%;
-    margin: -8 -8;
+.all-section{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-
-
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
-
+main{
+    background-image: url(https://besthqwallpapers.com/Uploads/8-4-2020/127978/thumb2-html5-black-logo-programming-language-grid-metal-background-html5-artwork.jpg);
+    background-size: 100%;
+    background-position: top center;
+  margin: 0 -8px 0 -8px;
+  flex: 1 1 auto;
 }
 
 
-
-
-@media (max-width : 1200px) {
-    .container {
-        max-width: 970px;
-    }
+img{
+    max-width: 100%;
+    max-height: 150px;
+   padding: 0 0 0 0 ;
 }
-
-@media (max-width : 992px) {
-    .container {
-        max-width: 750px;
-    }
-}
-
-@media (max-width : 767px) {
-    .container {
-        max-width: none;
-    }
-}
-
-/************************************************/
-/************************************************/
-/************************************************/
-
-
-
-header {
-
- 
-   
-}
-
-@media (max-width : 1600px) {
-    header {
-        background-size: 100% 35%;
-      
-        height: 100px
-    }
-}
-
-
-
-@media (max-width : 1200px) {
-    header {
-        background-size: 100% 35%;
-    
-        height: 105px
-    }
-}
-
-@media (max-width : 992px) {
-    header {
-       
-        background-size: 100% 10%;
-        height: 105px
-    }
-}
-
-@media (max-width : 767px) {
-    header {
-
-        background-size: 100% 10%;
-        height: 330px;
-    }
-
-}
-
-
-
-    
-h2 {text-align: center;
-    font-size: 35px;
-    margin : 0 0;
-}
-
-h3{
-    margin: 0 0;
-    font-size: 30px;
-}
-
-
 
 
 p{
-    margin: 0 0;
-    color: #000;
-    font-size: calc(8spx + 16 * (100vw / 1280));
+  color: aliceblue;
+  font-size: 25px;
+}
+
+
+h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+h2{
+    color: aliceblue;
+}
+a{
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0 ;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+ul{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0 ;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+
+.li-list{
+
+    min-width: 250px;
+    margin:  8px 0 8px 0;
+    padding-left: 10px;
+    background-color: rgba(83, 69, 83, 0.452);
+   font-size: 25px;
 }
 
 
 
 
 
-.tab  {
-    width: 100%;
-      display: flex;
-   justify-content : first(1) center;
-    flex-wrap: wrap;
-  
-}
 
 
-button {
- 
-    border-radius: 20px;
-    margin:5px 5px;
-width: 77px;
-    height: 30px;
 
+
+header{
+    background-color: rgba(0, 0, 0, 0.959);
+    margin: -8px -8px 0px -8px;
+ height: 300px;
 
 }
 
-.tablinks {
 
-    background-color: rgba(71, 71, 71, 0.548);
-    color: rgb(192, 192, 192);
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 2px 16px;
-    font-size: 12px;
+
+
+
+
+
+
+
+
+ .nav-li h2{
+ text-align: center;
+ }
+
+
+
+
+ .nav-li{
+    background-color: rgb(148, 143, 143);
+    color: black;
+           margin: 0px 25px 0px 25px;
+            border: 1px solid;
+       min-width: 100px;
+        height: 130px;
+    }
+
+
+    .nav-li h2 {
+        font-size: 20px;
+    }
+    
+
+    .ul-img{
+        display: block;
+       margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+
+    .li-img{
+
+
+        max-width: 100%;
+        height: 100px;
+      background-image: url(/img/обучение.png);
+      background-repeat: no-repeat;
+      background-position: center;
+
+    }
+
+
+
+
+
+
+
+.header-top{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+.header-bottom{
+
+
+
+
 
 }
 
-.tablink:hover {
-    background-color: rgb(71, 71, 71);
+
+
+
+.container{
+max-width: 1200px ;
+margin-left: auto;
+margin-right: auto;
+flex-wrap: wrap;
+
 }
 
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-      display: none;
-    margin: 0 0;
+section{
+    margin: 0px 0 50px 0;
 }
 
+
+.block{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+
+
+
+.content-video{
+    border-top: 1px solid;
+    border-color: rgb(20, 5, 236); ;
+    border-radius: 25%;
+    max-width: 1200px;
+    margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+
+
+footer{
+
+    margin: 0px auto -8px auto;
+    height: 100px;
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid;
+    border-color: rgb(20, 5, 236); ;
+    border-radius: 25%;
+
+}
+
+
+footer h2 {
+    padding-left: 100px;}
+
+
+
+
+
+
+
+.scrollmenu {
+    display: flex;
+
+    text-align: start;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 100%;
+    justify-content: space-between;
+}
+div.scrollmenu:hover {
+    background-color: rgba(94, 89, 107, 0.397);
+}
+
+
+div.scrollmenu a {
+    min-width: 100px;
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(155, 154, 154);
+}
