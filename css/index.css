@@ -19,7 +19,12 @@ li{
     list-style-type:none ;
 }
 
-
+a{
+    margin: 0 0 ;
+    padding: 0 0 ;
+    text-decoration: none;
+    color: black;
+}
 
 
 .panel_1{
@@ -47,8 +52,7 @@ background-color: rgba(83, 79, 79, 0.712);
     margin: 0 0;
   margin-bottom: 0px;
     display: flex;
-    
-    justify-content: space-around;
+        justify-content: space-around;
 
 
 
@@ -82,5 +86,10 @@ margin: 30px 30px;
 
 
 .li-list{
-    padding: 5px 0 5px 0;
+    width: 180px;
+    border-radius: 80px;
+    background-color: #cbcbcb;
+    margin: 10px 0 ;
+    padding: 4px 0px 4px 30px;
+color: black;
 }
